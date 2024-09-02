@@ -11,6 +11,13 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="container-fluid">
     <header>
@@ -175,7 +182,7 @@
           <hr class="w-25 mx-auto" />
         </div>
         <div
-          class="d-flex align-items-center gap-4 flex-colum flex-md-row flex-lg-row justify-content-evenly"
+          class="d-flex align-items-center gap-4 flex-column flex-md-row flex-lg-row justify-content-evenly"
         >
           <div class="div">
             <img
@@ -207,8 +214,12 @@
         <div class="row row-cols-1 row-cols-md-3 g-4 my-4">
           <div class="col">
             <div class="card h-100">
-              <img src="./images/others/latest1.png" alt="" />
-              class="card-img-top p-4 img-fluid object-fit-cover" alt="..." />
+              <img
+                src="./images/others/latest1.png"
+                alt=""
+                class="card-img-top p-4 img-fluid object-fit-cover"
+                alt="..."
+              />
               <div class="card-body">
                 <h5 class="card-title">Ducati XDIAVEL S-73</h5>
                 <p class="card-text">
@@ -481,24 +492,25 @@
       >
         <div class="">
           <div class="d-flex text-white gap-2">
-            <h5>Download Now</h5>
+            <h5>DownloadNow</h5>
             <h5>License</h5>
           </div>
-          <div class="d-flex text-white gap-2">
-            <div class="col-12 col-md-6 col-lg-6">
-              <h5>About</h5>
-              <h5>Features</h5>
-              <h5>Pricing</h5>
-              <h5>Careers</h5>
-              <h5>Help</h5>
-              <h5>Privacy Policy</h5>
-            </div>
+
+          <div
+            class="d-flex flex-column flex-md-row flex-lg-row text-white gap-2 fs-4"
+          >
+            <h6>About</h6>
+            <h6>Features</h6>
+            <h6>Pricing</h6>
+            <h6>Careers</h6>
+            <h6>Help</h6>
+            <h6>Privacy Policy</h6>
           </div>
         </div>
         <div class="">
-          <div class="text-white gap-2">
+          <div class="text-white gap-2 mb-3">
             <h5>Get The App</h5>
-            <div class="">
+            <div class="mb-3">
               <img
                 src="./images/others/android.png"
                 style="width: 135px; height: 40px"
@@ -515,7 +527,7 @@
           </div>
         </div>
       </div>
-      <div class="text-white text-center d-lg-none">
+      <div class="text-white text-center d-lg">
         © 2020 bike. All rights reserved
       </div>
     </footer>
